@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="active" id="race-car"><img src="./static/images/racecar.png" class="active" alt="race car image" style="width: 100px;"></li>
+            <li class="nav-links" id="home--link"><a href="./index.html">Home</a></li>
+            <li class="nav-links" id="search0to7--link"><a href="./index0to7.html">Search 0-7</a></li>
+            <li class="nav-links active-link" id="sample--link"><a href="./sample.html">Sample</a></li>
+        </ul>
+    </nav>
+    <form action="" id="racingForm">
+        <input type="text" id="enterRaceSeason" placeholder="2023">
+        <input type="text" id="enterRaceRound" placeholder="1">
+        <input type="submit" id="submitRaceQuery" value="Get Standings">
+    </form>
+    <table id="racingTable">
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Name</th>
+                <th>Nationality</th>
+                <th>Car Number</th>
+                <th>Sponsor</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody id="racingTableBody">
+            <tr style="font-size: 30px;">
+                <td>1</td>
+                <td>Joshua Lim</td>
+                <td>American</td>
+                <td>8</td>
+                <td>Audi</td>
+                <td>100</td>
+            </tr>
+            <tr style="font-size: 30px;">
+                <td>2</td>
+                <td>Heather Lim</td>
+                <td>American</td>
+                <td>65</td>
+                <td>Toyota</td>
+                <td>95</td>
+            </tr>
+            <tr style="font-size: 30px;">
+                <td>3</td>
+                <td>Andwoo Wee</td>
+                <td>Korean</td>
+                <td>32</td>
+                <td>KIA</td>
+                <td>92</td>
+            </tr>
+            <tr style="font-size: 30px;">
+                <td>4</td>
+                <td>Jordan Chen</td>
+                <td>Taiwanese</td>
+                <td>94</td>
+                <td>Red Bull Racing</td>
+                <td>91</td>
+            </tr>
+            <tr style="font-size: 30px;">
+                <td>5</td>
+                <td>Jason Giang</td>
+                <td>Chinese</td>
+                <td>9</td>
+                <td>Pirelli</td>
+                <td>87</td>
+            </tr>
+            <tr style="font-size: 30px;">
+                <td>6</td>
+                <td>Kabena Ankobiah</td>
+                <td>Ghanaian</td>
+                <td>24</td>
+                <td>Mercedes</td>
+                <td>86</td>
+            </tr>
+            <tr style="font-size: 30px;">
+                <td>7</td>
+                <td>Becca Reyes</td>
+                <td>American</td>
+                <td>36</td>
+                <td>Aston Martin</td>
+                <td>85</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

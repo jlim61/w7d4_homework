@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main0to7.js" defer></script>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="active" id="race-car"><img src="./static/images/racecar.png" class="active" alt="race car image" style="width: 100px;"></li>
+            <li class="nav-links" id="home--link"><a href="./index.html">Home</a></li>
+            <li class="nav-links active-link" id="search0to7--link"><a href="./index0to7.html">Search 0-7</a></li>
+            <li class="nav-links" id="sample--link"><a href="./sample.html">Sample</a></li>
+        </ul>
+    </nav>
+    <form action="" id="racingForm">
+        <input type="text" id="enterRaceSeason" placeholder="Enter Race Season">
+        <input type="text" id="enterRaceRound" placeholder="Enter Race Round">
+        <input type="submit" id="submitRaceQuery" value="Get Standings">
+    </form>
+    <table id="racingTable">
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Name</th>
+                <th>Nationality</th>
+                <th>Car Number</th>
+                <th>Sponsor</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody id="racingTableBody">
+
+        </tbody>
+    </table>
+</body>
+</html>
